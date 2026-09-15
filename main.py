@@ -1,6 +1,5 @@
 import asyncio
 
-from openai import chat
 from agent import llm as agent
 from google.adk.runners import InMemoryRunner
 from google.adk.tools.preload_memory_tool import PreloadMemoryTool
