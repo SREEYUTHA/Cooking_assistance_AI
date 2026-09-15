@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+import os
 
 if "GOOGLE_API_KEY" in st.secrets:
     os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
