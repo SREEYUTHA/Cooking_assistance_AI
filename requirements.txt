@@ -1,0 +1,7 @@
+streamlit
+google-adk
+python-dotenv
+langchain-groq
+langchain-core
+langchain-openai
+openai
