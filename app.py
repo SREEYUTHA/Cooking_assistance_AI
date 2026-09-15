@@ -3,6 +3,9 @@ import base64
 
 if "GOOGLE_API_KEY" in st.secrets:
     os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
+else:
+    st.error("GOOGLE_API_KEY is missing from Streamlit Secrets.")
+    st.stop()
     
 from main import run_agent
 
