@@ -20,7 +20,7 @@ LLM_MODEL = os.getenv("LLM_MODEL")
 
 
 llm = LlmAgent(
-    model="gemini-2.5-flash",
+    model="gemini-3.5-flash-lite",
     name="cooking_agent",
     description="A specialized AI cooking assistant.",
     instruction="""
